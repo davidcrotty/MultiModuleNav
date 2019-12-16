@@ -1,4 +1,4 @@
-package net.davidcrotty.navigationmultimodule.ui.home
+package net.davidcrotty.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

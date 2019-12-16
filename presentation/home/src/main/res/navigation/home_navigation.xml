@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    android:id="@+id/home_navigation">
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="net.davidcrotty.navigation.NavigationFragment"
-        android:label="@string/title_home" />
+        android:name="net.davidcrotty.home.HomeFragment"
+        android:label="@string/title_home" >
+        <deepLink app:uri="myApp://home"/>
+    </fragment>
 
 </navigation>

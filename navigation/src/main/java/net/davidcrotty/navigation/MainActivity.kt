@@ -1,4 +1,4 @@
-package net.davidcrotty.navigationmultimodule
+package net.davidcrotty.navigation
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_home
             )
         )
-        setupActionBarWithNavController(navController, appBarConfiguration)
-        navView.setupWithNavController(navController)
+//        setupActionBarWithNavController(navController, appBarConfiguration)
+//        navView.setupWithNavController(navController)
     }
 }
